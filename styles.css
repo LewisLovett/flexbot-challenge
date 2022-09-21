@@ -1,7 +1,9 @@
- *{
+/* Clears default styles */
+*{
     padding: 0;
     margin: 0;
  }
+ /* Navigaton bar styles */
  nav{
     background-color: black;
  }
@@ -27,6 +29,8 @@ nav ul li a{
     text-decoration: none;
     color: white;
 }
+
+/* Main content styles */
 .panelContainer{
     border: 1px solid black;
     margin: 5px 10px;
@@ -44,13 +48,24 @@ aside{
 main{
     width: 70%;
 }
+
+/* Challenge 2 CSS */
 .blackBox{
     width: 100px;
     height: 100px;
     background-color: black;
     color: white;
+    margin: 10px;
 }
 #container1{
     display: flex;
     justify-content: space-around;
+}
+#container2{
+    display: flex;
+    justify-content: flex-end;
+}
+#container3{
+    display: flex;
+    justify-content: flex-start;
 }
