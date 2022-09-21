@@ -27,9 +27,20 @@ nav ul li a{
     text-decoration: none;
     color: white;
 }
-
 .panelContainer{
     border: 1px solid black;
     margin: 5px 10px;
     padding: 20px;
+    
+}
+#mainContainer{
+    display: flex;
+}
+aside{
+    width: 30%;
+    border: 1px solid black;
+    padding:20px;
+}
+main{
+    width: 70%;
 }
